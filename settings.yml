@@ -1,13 +1,18 @@
 show_on_mobile:
   default: true
-  description: "Show tag banners on mobile devices"
+  description: 'Show tag banners on mobile devices'
 
 show_above_site_header:
   default: false
   type: bool
-  description: "Display the banner in the above site header connector."
+  description: 'Display the banner in the above site header connector.'
 
 show_below_site_header:
+  default: false
+  type: bool
+  description: 'Display the banner in the below site header connector.'
+
+show_above_layouts_main_content:
   default: true
   type: bool
-  description: "Display the banner in the below site header connector."
+  description: 'Display the banner in the above layouts main content connector (to support Layouts plugin).'
